@@ -4,13 +4,8 @@
 
     use App\Events\OnlineForecastRetrieved;
     use App\Http\Controllers\Controller;
-    use App\Models\City;
     use App\Models\Forecast;
-    use App\Models\WeatherForecastUpdateTracker;
-    use App\Providers\SaveRetrievedForecast;
-    use Carbon\Carbon;
     use Illuminate\Http\Request;
-    use Illuminate\Support\Facades\Event;
     use Illuminate\Support\Facades\Validator;
     use Throwable;
 
