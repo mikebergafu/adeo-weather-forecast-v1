@@ -1,0 +1,81 @@
+{
+    "status": true,
+    "code": "200",
+    "message": "Keywords generated successfully",
+    "data": {
+        "current_page": 1,
+        "data": [
+            {
+                "keyword": "fiction",
+                "total": 64
+            },
+            {
+                "keyword": "nonfiction",
+                "total": 30
+            },
+            {
+                "keyword": "history",
+                "total": 26
+            },
+            {
+                "keyword": "data_science",
+                "total": 17
+            },
+            {
+                "keyword": "philosophy",
+                "total": 17
+            },
+            {
+                "keyword": "science",
+                "total": 14
+            },
+            {
+                "keyword": "comic",
+                "total": 13
+            },
+            {
+                "keyword": "computer_science",
+                "total": 11
+            },
+            {
+                "keyword": "economics",
+                "total": 10
+            },
+            {
+                "keyword": "mathematics",
+                "total": 5
+            },
+            {
+                "keyword": "signal_processing",
+                "total": 3
+            }
+        ],
+        "first_page_url": "http:\/\/127.0.0.1:8000\/api\/adeo\/generate-keywords?page=1",
+        "from": 1,
+        "last_page": 1,
+        "last_page_url": "http:\/\/127.0.0.1:8000\/api\/adeo\/generate-keywords?page=1",
+        "links": [
+            {
+                "url": null,
+                "label": "&laquo; Previous",
+                "active": false
+            },
+            {
+                "url": "http:\/\/127.0.0.1:8000\/api\/adeo\/generate-keywords?page=1",
+                "label": "1",
+                "active": true
+            },
+            {
+                "url": null,
+                "label": "Next &raquo;",
+                "active": false
+            }
+        ],
+        "next_page_url": null,
+        "path": "http:\/\/127.0.0.1:8000\/api\/adeo\/generate-keywords",
+        "per_page": 20,
+        "prev_page_url": null,
+        "to": 11,
+        "total": 11
+    }
+}

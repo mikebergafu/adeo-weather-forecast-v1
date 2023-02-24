@@ -1,5 +1,6 @@
 <?php
 
+    use App\Http\Controllers\Api\BookApiController;
     use App\Http\Controllers\Api\WeatherForecastApiController;
     use App\Http\Controllers\Api\CityApiController;
     use Illuminate\Http\Request;
@@ -27,5 +28,9 @@ Route::prefix('v1')->group(function (){
 
     Route::prefix('cities')->name('v1.cities.')->group(function (){
        Route::resource('/', CityApiController::class);
+    });
+
+    Route::prefix('books')->name('v1.books.')->group(function (){
+        Route::resource('/', BookApiController::class);
     });
 });
