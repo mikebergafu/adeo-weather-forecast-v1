@@ -52,7 +52,9 @@
 
       private function formed_books_response(): Builder
       {
-          return  Genre::with('books', 'books.publisher')
+          return  Genre::orderBy('total_books', 'DESC')
+              ->orderBy('display_name', 'DESC')
+              ->with('books', 'books.publisher')
               ->select(['genres.id', 'genres.uuid', 'genres.display_name as keyword', 'genres.total_books as total']);
       }
     }
